@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/dot"
+        android:id="@+id/action"
+        android:title=""
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/call_settings"
+                android:icon="@drawable/call"
+                android:orderInCategory="1"
+                android:title="Call"
+                app:showAsAction="always"
+                />
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/camera_settings"
+                android:icon="@drawable/camera"
+                android:orderInCategory="2"
+                android:title="Camera"
+                app:showAsAction="always"
+                />
+            <item
+                android:id="@+id/video_settings"
+                android:icon="@drawable/video"
+                android:orderInCategory="3"
+                android:title="Video"
+                app:showAsAction="always"/>
+            </group>
+            <item
+                android:id="@+id/email_settings"
+                android:icon="@drawable/email"
+                android:orderInCategory="4"
+                android:title="Email"
+                app:showAsAction="always"/>
+            <item
+                android:id="@+id/add_settings"
+                android:icon="@drawable/add"
+                android:orderInCategory="5"
+                android:title="Add"
+                app:showAsAction="always"/>
+            <item
+                android:id="@+id/copy_settings"
+                android:icon="@drawable/copy"
+                android:orderInCategory="6"
+                android:title="Copy"
+                app:showAsAction="always"/>
+            <item
+                android:id="@+id/paste_settings"
+                android:icon="@drawable/paste"
+                android:orderInCategory="7"
+                android:title="Paste"
+                app:showAsAction="always"/>
+            <item
+                android:id="@+id/help_settings"
+                android:icon="@drawable/help"
+                android:orderInCategory="8"
+                android:title="Help"
+                app:showAsAction="always"/>
+        </menu>
+    </item>
+
+
+</menu>
